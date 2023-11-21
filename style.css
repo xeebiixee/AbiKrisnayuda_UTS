@@ -1,0 +1,337 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: var(--variable-collection-white);
+  width: 1440px;
+  height: 1720px;
+  position: relative;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 672px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 629px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .play-like-a-pro {
+  position: absolute;
+  width: 665px;
+  top: 173px;
+  left: 160px;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 130px;
+  letter-spacing: 0;
+  line-height: 117px;
+}
+
+.desktop .text-wrapper {
+  color: #ffffff;
+}
+
+.desktop .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: 33px;
+  left: 886px;
+}
+
+.desktop .navbar {
+  display: inline-flex;
+  height: 18px;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+  transform: rotate(0.04deg);
+}
+
+.desktop .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--menu-font-family);
+  font-weight: var(--menu-font-weight);
+  color: var(--variable-collection-white);
+  font-size: var(--menu-font-size);
+  letter-spacing: var(--menu-letter-spacing);
+  line-height: var(--menu-line-height);
+  white-space: nowrap;
+  font-style: var(--menu-font-style);
+}
+
+.desktop .sign-up-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 30px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: rgb(19, 230, 240);
+}
+
+.desktop .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  position: absolute;
+  top: 23px;
+  left: 160px;
+}
+
+.desktop .game {
+  position: relative;
+  width: 47px;
+  height: 47px;
+}
+
+.desktop .b-iclass {
+  position: relative;
+  width: fit-content;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.desktop .frame-3 {
+  display: flex;
+  width: 740px;
+  align-items: flex-end;
+  gap: 110px;
+  padding: 30px 256px;
+  position: absolute;
+  top: 516px;
+  left: 370px;
+  background-color: var(--variable-collection-white);
+  box-shadow: 0px 20px 100px #1bbeaa6b;
+}
+
+.desktop .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.desktop .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: rgb(8, 249, 204);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 40.8px;
+  white-space: nowrap;
+}
+
+.desktop .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -48px;
+}
+
+.desktop .frame-6 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 115px;
+  position: absolute;
+  top: 804px;
+  left: 160px;
+}
+
+.desktop .rectangle-2 {
+  position: relative;
+  width: 550px;
+  height: 415px;
+  object-fit: cover;
+}
+
+.desktop .frame-7 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 425px;
+  align-items: flex-start;
+  gap: 19px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-8 {
+  display: flex;
+  width: 455px;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .rectangle-3 {
+  position: relative;
+  width: 7px;
+  height: 88px;
+  background-color: var(--ok);
+}
+
+.desktop .how-to-become-a-pro {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--heading-2-font-family);
+  font-weight: var(--heading-2-font-weight);
+  color: var(--black);
+  font-size: var(--heading-2-font-size);
+  letter-spacing: var(--heading-2-letter-spacing);
+  line-height: var(--heading-2-line-height);
+  font-style: var(--heading-2-font-style);
+}
+
+.desktop .lorem-ipsum-dolor {
+  position: relative;
+  width: 455px;
+  height: 239px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-ok);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 1440px;
+  height: 358px;
+  top: 1362px;
+  left: 0;
+  background-color: var(--black);
+}
+
+.desktop .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  gap: 630px;
+  position: absolute;
+  top: 79px;
+  left: 160px;
+}
+
+.desktop .ready-for-your-next {
+  position: relative;
+  width: 360px;
+  height: 111px;
+  margin-top: -1px;
+  font-family: var(--heading-2-font-family);
+  font-weight: var(--heading-2-font-weight);
+  color: transparent;
+  font-size: var(--heading-2-font-size);
+  letter-spacing: var(--heading-2-letter-spacing);
+  line-height: var(--heading-2-line-height);
+  font-style: var(--heading-2-font-style);
+}
+
+.desktop .span {
+  color: #ffffff;
+  font-family: var(--heading-2-font-family);
+  font-style: var(--heading-2-font-style);
+  font-weight: var(--heading-2-font-weight);
+  letter-spacing: var(--heading-2-letter-spacing);
+  line-height: var(--heading-2-line-height);
+  font-size: var(--heading-2-font-size);
+}
+
+.desktop .frame-10 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-11 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 603px;
+  position: absolute;
+  top: 294px;
+  left: 160px;
+}
+
+.desktop .frame-12 {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .layer {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.desktop .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27.2px;
+  white-space: nowrap;
+}
+
+.desktop .frame-13 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 43px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27.2px;
+  white-space: nowrap;
+}
